@@ -9,7 +9,7 @@ root = Tk()
 # Window properties
 root.title('Clock')
 root.resizable(0,0)  # Remove the maximize button
-root.configure(bg='black')
+root.configure(bg='purple')
 
 
 # Define Functions
@@ -21,8 +21,8 @@ def system_date():
 
 
 # Define Widgets
-time_label = Label(root, font=("Arial", 50), background="black", foreground="lime")
-date_label = Label(root, font=("Arial", 50), background="black", foreground="lime")
+time_label = Label(root, font=("Digital dream fat", 50), background="purple", foreground="white")
+date_label = Label(root, font=("Digital dream fat", 50), background="purple", foreground="white")
 
 # Define Widgets positions
 time_label.grid(row=0, column=0)
